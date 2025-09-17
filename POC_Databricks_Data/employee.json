@@ -1,13 +1,15 @@
 {
-  "company": "TechNova",
-  "location": {
-    "country": "Canada",
-    "city": "Toronto",
-    "address": {
-      "street": "123 Innovation Drive",
-      "postalCode": "M5V 2T6"
+  "company": [
+	"comp_name": "TechNova",
+	"location": {
+		"country": "Canada",
+		"city": "Toronto",
+		"address": {
+			"street": "123 Innovation Drive",
+			"postalCode": "M5V 2T6"
     }
-  },
+  }
+  ],
   "employees": [
     {
       "id": 101,
