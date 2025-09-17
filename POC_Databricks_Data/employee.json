@@ -1,0 +1,73 @@
+{
+  "company": "TechNova",
+  "location": {
+    "country": "Canada",
+    "city": "Toronto",
+    "address": {
+      "street": "123 Innovation Drive",
+      "postalCode": "M5V 2T6"
+    }
+  },
+  "employees": [
+    {
+      "id": 101,
+      "name": {
+        "first": "Alice",
+        "last": "Wong"
+      },
+      "role": "Data Engineer",
+      "skills": ["Python", "Spark", "SQL"],
+      "projects": [
+        {
+          "name": "ETL Migration",
+          "duration_months": 6,
+          "status": "Completed"
+        },
+        {
+          "name": "Data Lakehouse",
+          "duration_months": 12,
+          "status": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": {
+        "first": "Bob",
+        "last": "Singh"
+      },
+      "role": "ML Engineer",
+      "skills": ["TensorFlow", "PyTorch", "MLflow"],
+      "projects": [
+        {
+          "name": "Recommendation System",
+          "duration_months": 8,
+          "status": "Completed"
+        }
+      ]
+    }
+  ],
+  "financials": {
+    "fiscalYear": 2024,
+    "revenue": {
+      "Q1": 1200000,
+      "Q2": 1500000,
+      "Q3": 1800000,
+      "Q4": 2000000
+    },
+    "expenses": [
+      {
+        "type": "Salaries",
+        "amount": 2500000
+      },
+      {
+        "type": "Cloud Infrastructure",
+        "amount": 800000
+      },
+      {
+        "type": "R&D",
+        "amount": 500000
+      }
+    ]
+  }
+}
